@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<math.h>
 
-	double square(double base){
+	double square(double base){         /* A function to square a number */
 		return base * base;
 	}
 
