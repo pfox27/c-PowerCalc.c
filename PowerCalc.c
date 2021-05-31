@@ -1,4 +1,4 @@
-/* A program to perform calculations using exponents.  The license here is the "free as a byrd" license. */
+/* A program to perform calculations using exponents, using two different functions.  The license here is the "free as a byrd" license. */
 
 #include<stdio.h>
 #include<math.h>
