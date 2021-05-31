@@ -1,4 +1,4 @@
-/* A program to perform calculations using exponents, using two functions.  The license here is the "free as a byrd" license. */
+/* A program to perform calculations using exponents, using two functions.  The license here is the "free as a Byrd" license. */
 
 #include<stdio.h>
 #include<math.h>
@@ -7,7 +7,7 @@
 		return base * base;
 	}
 
-	double power(double base, double exponent){
+	double power(double base, double exponent){  /* A function to compute the result of any power other than a square */
 		return pow(base, exponent);
 	}
 
