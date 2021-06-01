@@ -14,10 +14,10 @@ int main(){
 	printf("Please enter the radius of the planetoid for the calculation: \n");
 	scanf("%f", &radius);
 
-  g = G*mass/(radius*radius);
+      g = G*mass/(radius*radius);
 
-		printf("The gravitational field strength of the planetoid is: \n");
-		printf("%f", g);
+	printf("The gravitational field strength of the planetoid is: \n");
+	printf("%f", g);
 
 
 

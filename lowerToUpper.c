@@ -12,25 +12,20 @@ char makeupper (char character){
 			printf("Character is upper case \n");
 			return tolower (character);
 		}
-		else{ 
+		else{
 		printf("Character can't be converted \n");
 		return character;
 		}
 	}
-		
-
 
 int main (void){
 
 char c;
 
-
 	printf("Enter an upper or lower case letter to be converted: \n");
 	scanf("%c", &c);
 //	makeupper (c);
 	printf("The end result is %c", makeupper(c));
-		 
+
     return 0;
 }
-
-
