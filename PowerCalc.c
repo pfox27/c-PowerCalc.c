@@ -1,18 +1,18 @@
-/* A program to perform calculations using exponents, using two functions.  The license here is the "free as a Byrd" license. */
+/* A program to perform calculations using exponents.  The license here is the "free as a byrd" license. */
 
 #include<stdio.h>
 #include<math.h>
 
-	double square(double base){         /* A function to square a number */
+	double square(double base){
 		return base * base;
 	}
 
-	double power(double base, double exponent){  /* A function to compute the result of any power other than a square */
+	double power(double base, double exponent){
 		return pow(base, exponent);
 	}
 
 int main(){
-
+	
 	float base, exponent;
 	printf("Please enter the base for the calculation: \n");
 	scanf("%f", &base);
@@ -32,10 +32,14 @@ int main(){
 		printf("%f", power(base, exponent));
 	}
 
-
+	
 	/*printf("... and 2 raised to the power 3 is: \n");
 	printf("%f", power(2.5, 3.2));
 	*/
 
 	return 0;
 }
+
+
+
+
