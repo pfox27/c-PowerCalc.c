@@ -18,9 +18,9 @@ int main(){
 		RandomNumber = rand() % 40 + 1;
 
 			for(int c = 0; c <= i; c++){
-
+				
 				printf("RandomNumber is: %d \n", RandomNumber);
-				printf("UniqueNumber[c] at index %d is %d \n", c, UniqueNumber[c]);
+				printf("UniqueNumber[c] at index %d is %d \n", c, UniqueNumber[c]); 
 
 				if(RandomNumber == UniqueNumber[c - 1]){
 					printf("Number is not unique, trying again. \n");
@@ -34,9 +34,21 @@ int main(){
 				}
 			}
 				printf("The list of unique random numbers is: \n");
-
+				
 			for(int counter = 0; counter < n; counter++){
 				printf("%d, ", UniqueNumber[counter]);
 	}
-		return 0;
+		return 0;	
 	}
+
+
+
+
+
+
+
+
+
+
+
+
