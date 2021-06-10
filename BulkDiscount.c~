@@ -1,0 +1,10 @@
+/* A program to calculate the discount for items purchased in bulk. */
+
+#include<stdio.h>
+
+int main(){
+  int purchase;
+  float total, discount;
+  printf("\nPlease enter a purchase value: \n");
+  
+}
